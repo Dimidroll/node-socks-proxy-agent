@@ -3,7 +3,7 @@ import net from 'net';
 import tls from 'tls';
 import url from 'url';
 import createDebug from 'debug';
-import { Agent, ClientRequest, RequestOptions } from 'agent-base';
+import { Agent, ClientRequest, RequestOptions } from 'agent-base-keepalive';
 import { SocksClient, SocksProxy, SocksClientOptions } from 'socks';
 import { SocksProxyAgentOptions } from '.';
 
